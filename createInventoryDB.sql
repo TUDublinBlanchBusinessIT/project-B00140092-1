@@ -8,6 +8,7 @@ create table usedCars (
     carReg varchar(30), 
     carMiles INT,
     carYear INT,
+    nct INT DEFAULT 0,
     primary key(id)
 );
 
@@ -17,5 +18,5 @@ create table client (
     surname varchar(30),
     phoneNumber INT,
     primary key(id),
-    secondary key(id)
+    unique key(id)
 ); 
