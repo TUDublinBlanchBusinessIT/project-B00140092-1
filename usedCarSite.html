@@ -1,22 +1,26 @@
 <html>
+<head>
+    <title>The Car Park</title>
+</head>
 <body>
     <div class="container">
         <h2 align="center">The Car Park</h2>
-        <img src="cars.jpg" style="height:30%; width:100%">
         <br><br>
-        <form action="processForm.php" method="POST">
+        <form action="usedCars.php" method="POST">
             <label for="firstname">Firstname:</label>
-              <input type="text" id="firstname" placeholder="Enter Your Firstname" name="firstname">
-        <br>
+            <input type="text" id="firstname" placeholder="Enter Your Firstname" name="firstname">
+            <br>
 
-            <label for="surname">Surname:</label>          
-              <input type="text" id="surname" placeholder="Enter Your Surname" name="surname">
-        <br>
-                <label><input type="checkbox" name="NCT">Do you have up to date NCT?</label>
-        <br>
-              <button type="submit">Continue</button>
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" placeholder="Enter Your Surname" name="surname">
+            <br>
+
+            <label><input type="checkbox" name="nct">Do you have up to date NCT?</label>
+            <br>
+
+            <button type="submit">Continue</button>
         </form>
-
+    </div>
 
 </body>
 
