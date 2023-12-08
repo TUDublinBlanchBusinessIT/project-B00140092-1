@@ -1,4 +1,4 @@
-drop database if exists Inventory
+drop database if exists Inventory;
 create database Inventory;
 use Inventory;
 create table usedCars (
@@ -10,6 +10,7 @@ create table usedCars (
     carYear INT,
     primary key(id)
 );
+
 create table client (
     id int auto_increment,
     firstname varchar(30),
@@ -17,5 +18,4 @@ create table client (
     phoneNumber INT,
     primary key(id),
     secondary key(id)
-);
-insert into usedCars
+); 
